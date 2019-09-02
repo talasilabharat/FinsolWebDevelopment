@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+
+<body>
+<p id="demo"></p>
+
+	<script type="text/javascript">
+		function fun()
+		{
+		  var grades=prompt("enter the grade");
+		  switch(grades)
+		  {
+		  	case "A":
+		  	     document.getElementById("demo").innerHTML="Distinction";
+		  	     break;
+		  	case "B":
+		  	     document.getElementById("demo").innerHTML="excellent";
+		  	     break;     
+		  	case "C":
+		  	     document.getElementById("demo").innerHTML="verygood";
+		  	     break;
+		  	case "D":
+		  	     document.getElementById("demo").innerHTML="good";
+		  	     break;
+		  	case "E":
+		  	     document.getElementById("demo").innerHTML="satisfactory";
+		  	     break;
+		  	case "F":
+		  	     document.getElementById("demo").innerHTML="fail";
+		  	     break;
+		  	default:
+		  	     document.getElementById("demo").innerHTML="wrongchoice";
+		  	     break;
+                   
+
+		  }
+
+          
+
+
+		}
+	</script>
+	
+	<button type="button" onclick="fun()"> results</button> 
+
+</body>
+</html>
